@@ -5,8 +5,8 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-url1 = './Data/Linear Acceleration.csv'
-url2 = './Data/Location.csv'
+url1 = 'https://raw.githubusercontent.com/jrautio19/Fysiikan_loppuprojekti/main/Data/Linear_Acceleration.csv'
+url2 = 'https://raw.githubusercontent.com/jrautio19/Fysiikan_loppuprojekti/main/Data/Location.csv'
 df_a = pd.read_csv(url1)
 df_l = pd.read_csv(url2)
 
